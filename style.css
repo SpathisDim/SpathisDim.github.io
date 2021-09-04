@@ -53,23 +53,19 @@ html{
     margin-top:450px;
     background: none;
     border: 2px solid black;
-    color: black;
     padding: 8px 48px;
     font-size: 28px;
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 1px 1px 8px rgba(245, 11, 233, 0.938);
     transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color:white;
+    text-shadow:0.5px 0.5px #ce07c4;
 }
 
 .projects{
     border-color:#f31ce8;  
-}
-
-.linkbtn{
-    text-decoration: none;
-    color:white;
-    text-shadow:0.5px 0.5px #ce07c4;
 }
 
 .projects:hover {
