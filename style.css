@@ -59,18 +59,24 @@ html{
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 1px 1px 8px rgba(245, 11, 233, 0.938);
-    text-shadow:0.5px 0.5px white;
     transition: all 0.3s ease 0s;
 }
 
 .projects{
-    border-color:#f31ce8;
-    color:#f31ce8;;  
+    border-color:#f31ce8;  
+}
+
+.linkbtn{
+    text-decoration: none;
+    color:white;
+    text-shadow:0.5px 0.5px #ce07c4;
 }
 
 .projects:hover {
     background-color:#ce07c4;
+    font-weight: bolder;
     color: white;
+    text-shadow:1px 1px darkorchid;
     box-shadow: 0px 15px 20px rgba(187, 6, 172, 0.479);
     transform: translateY(-15px); 
 }
