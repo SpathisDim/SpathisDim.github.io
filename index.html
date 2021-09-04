@@ -1,24 +1,198 @@
-<html>
-	<head>
-		<title>Dimitris Spathis</title>
-		<link rel="stylesheet" type="text/css" href="style/style.css">
-		<link rel="shortcut icon" href="images/DS.png" type="image/png" sizes="152x152">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body>
-		<label class="name">Dimitris Spathis</label>
-		<label class="info">Electrical & Computer Engineer | UOWM </label>
-		<div class="github">
-			<a href="https://github.com/SpathisDim" target="_blank">
-				<img class="git" src="images/GitHubLight.png" alt="GitHub">	
-			</a>
-		</div>
-		<div class="LinkedIn">
-			<a href="https://www.linkedin.com/in/dimitrios-spathis/s" target="_blank">
-			  	<img class="in" src="images/li.png" alt="LinkedIn">	
-		</div>
-		<div class="Instagram">
-			<a href="https://www.instagram.com/dimitris__spathis/" target="_blank">
-			  	<img class="insta" src="images/insta.png" alt="Instagram">	
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <!-- Section 1 -->
+        <section class="section-1" id="section-1">
+            <div class="name-university">
+                <h1>Spathis Dimitris</h1>
+                <h3>Electrical & Computer Engineer</h3>
+                <h4>University of Western Macedonia</h4>
+                <button class="btn projects">
+                    <a href="#section-3">Projects</a></button> 
+            </div>              
+        </section>
+        <!-- End of Section 1 -->
+
+        <!--Navbar-->
+        <nav class="navbar">
+            <a href="#section-1" class="navbar-link">Home</a>
+            <a href="#section-2" class="navbar-link">About</a>
+            <a href="#section-3" class="navbar-link">Portfolio</a>
+            <a href="#section-4" class="navbar-link">Contact</a>
+        </nav>
+    </div>
+    <!--End of Navbar-->
+    <!--Section 2-->
+    <section class="section-2" id="section-2">
+        <h1 class="section-2-head">About Me</h1>
+        <div class="progress-bars">
+            <div class="bar">
+                <p class="bar-text">
+                    HTML <span>95</span>%
+                </p>
+                <div class="percent-bar"></div>
+            </div>
+            <div class="bar">
+                <p class="bar-text">
+                    CSS <span>85</span>%
+                </p>
+                <div class="percent-bar"></div>
+            </div>
+            <div class="bar">
+                <p class="bar-text">
+                    JAVA <span>70</span>%
+                </p>
+                <div class="percent-bar"></div>
+            </div>
+            <div class="bar">
+                <p class="bar-text">
+                    PHP <span>80</span>%
+                </p>
+                <div class="percent-bar"></div>
+            </div>
+            <div class="bar">
+                <p class="bar-text">
+                    Python <span>60</span>%
+                </p>
+                <div class="percent-bar"></div>
+            </div>
+            <div class="bar">
+                <p class="bar-text">
+                    MACHINE LEARNING <span>60</span>%
+                </p>
+                <div class="percent-bar"></div>
+            </div>
+            <div class="bar">
+                <p class="bar-text">
+                    Javascript <span> 50</span>%
+                </p>
+                <div class="percent-bar"></div>
+            </div>
+        </div>
+        <div class="soft-skills">
+            <div class="soft-skill">
+                <i class="fa fa-question" aria-hidden="true"></i>
+                <h2 class="skill">Problem Solving</h2>
+            </div>
+            <div class="soft-skill">
+                <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            <h2 class="skill">Creative</h2>
+            </div>
+            <div class="soft-skill">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <h2 class="skill">Teamwork</h2>
+            </div>
+            <div class="soft-skill">
+                <i class="fa fa-rocket" aria-hidden="true"></i>
+                <h2 class="skill">Dynamic</h2>
+            </div>
+        </div>
+    </section>
+    <!--Section 3-->
+    <section class="section-3" id="section-3">
+        <h1 class="section-3-head">My Projects</h1>
+        <div class="projects-container">
+            <div class="project">
+                <div class="project-text">
+                    <h2 class="project-name">Machine learning algorithms</h2>
+                    <h2 class="project-name">for modelling air quality</h2>
+                    <h4 class="stack">
+                        Machine Learning / Python
+                    </h4>
+                </div>
+                <img src="images/s1.png" class="project-img"/>
+                <a href="https://github.com/SpathisDim/Machine-learning-algorithms-for-modelling-air-quality" class="project-link" target="_blank">Go to project</a>
+            </div>
+            <div class="project">
+                <div class="project-text">
+                    <h2 class="project-name">Loan Calculation</h2>
+                    <h4 class="stack">
+                        Java Swing
+                    </h4>
+                </div>
+                <img src="images/s2.jpg" class="project-img" width="200" height="300" />
+                <a href="https://github.com/SpathisDim/loanCalculation" class="project-link" target="_blank">Go to project</a>
+            </div>
+            <div class="project">
+                <div class="project-text">
+                    <h2 class="project-name">Agrodimoprasies</h2>
+                    <h4 class="stack">
+                        HTML/CSS/JS/PHP/MySQL
+                    </h4>
+                </div>
+                <img src="images/s3.png" class="project-img" width="200" height="300">
+                <a href="https://github.com/SpathisDim/Agrodimoprasies" class="project-link" target="_blank">Go to project</a>
+            </div>
+            <div class="project">
+                <div class="project-text">
+                    <h2 class="project-name">Craft Game</h2>
+                    <h4 class="stack">
+                        C# / Unity
+                    </h4>
+                </div>
+                <img src="images/s4.png" class="project-img" width="200" height="300">
+                <a href="https://github.com/SpathisDim/craftGame" class="project-link" target="_blank">Go to project</a>
+            </div>
+            <div class="project">
+                <div class="project-text">
+                    <h2 class="project-name">SYM</h2>
+                    <h4 class="stack">
+                        Java
+                    </h4>
+                </div>
+                <img src="images/s4.jpg" class="project-img" width="200" height="300">
+                <a href="https://github.com/SpathisDim/SYM" class="project-link" target="_blank">Go to project</a>
+            </div>
+            <div class="project">
+                <div class="project-text">
+                    <h2 class="project-name">Microcontrollers</h2>
+                    <h4 class="stack">
+                        C / PicSimlab
+                    </h4>
+                </div>
+                <img src="images/s6.png" class="project-img" width="200" height="300">
+                <a href="https://github.com/SpathisDim/microControllers" class="project-link" target="_blank">Go to project</a>
+            </div>
+        </div>     
+    </section>
+    <!--Section 4-->
+    <section class="section-4" id="section-4">
+        <h1 class="section-4-head">Contact Me</h1>
+        <form class="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        </form>
+        <input type="submit" value="Submit" class="form-btn">
+    </section>
+    <!--Section 5-->
+    <footer class="section-5" id="section-5">
+        <div class="social-media">
+            <a href="https://github.com/SpathisDim" class="link">
+                <i class="fa fa-github-square"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/dimitrios-spathis/" class="link">
+                <i class="fa fa-linkedin-square"></i>
+            </a>
+
+            <a href="https://www.instagram.com/dimitris__spathis/" class="link">
+                <i class="fa fa-instagram"></i>
+            </a>           
+        </div>
+        <p class="copyright">
+            Copyright &copy; DS. 
+            All Rights Reserved
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
