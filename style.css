@@ -117,8 +117,7 @@ html{
     right:-15%;
     bottom:1px;
     transition:width 0.2s;
-    position:absolute;
-    
+    position:absolute; 
 }
 
 .navbar-link:hover::before{
@@ -298,8 +297,6 @@ html{
 .project:hover .project-link{
     bottom:5rem;
 }
-
-
 /* End of Section 3*/
 
 /*Section 4*/
@@ -393,6 +390,7 @@ html{
     text-align: center;
 }
 
+
 /* End of Section 5*/
 @media (max-width: 1450px){
     .section-1{
@@ -410,8 +408,8 @@ html{
 
 @media (max-width:500px){
     .section-1{
-     background-position:left;
-     height:850px;
+        background-position:left;
+        height:850px;
     }
 
     .btn {
@@ -449,4 +447,68 @@ html{
         width:25rem;       
     }
 
+}
+
+@media (max-width:450px){
+
+    .btn {
+        margin-top:520px;
+    }
+    .name-university{
+        top:0px;
+    }
+    .name-university h3{
+        font-size:30px;
+    }
+
+    .navbar{
+        height:30px;
+    }
+    .navbar-link{
+        margin:10px;
+        font-size:22px;
+        padding-top:15px;
+    }
+
+    .bar{
+        width:300px;
+    }
+
+    .soft-skill i{
+        font-size: 70px;
+    }
+    .skill{
+        font-size:20px;
+    }
+
+    /*section 3*/
+    .project-img{
+        width:180px;
+        height: 280px;
+        width:22rem;
+    }
+
+     /*section 4*/
+     .section-4-head{
+        margin-top:30px;
+    }
+     .contact-form{
+        width:17rem;
+    }
+    .form-btn{
+        width:18rem;       
+    }
+
+    .contact-form input, .contact-form textarea{
+        padding:8px;
+        margin:8px 0px;
+        font-size:20px;
+        background-color: #eef;
+        border:4 solid #ce07c4;
+    }
+
+    /*section 5*/
+    .link{
+        margin:0 20px;
+    }
 }
