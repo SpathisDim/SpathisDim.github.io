@@ -506,6 +506,9 @@ html{
         background-color: #eef;
         border:4 solid #ce07c4;
     }
+    .form-input input[type="text"]{
+        width: 180px !important;
+    }
 
     /*section 5*/
     .link{
