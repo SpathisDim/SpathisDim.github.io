@@ -15,12 +15,11 @@ html{
 .section-1{
     width:100%;
     height:1100px;
-    background-image:url(images/bg.jpg);
+    background-image:url(images/bg.jpg) ;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items:center;
-   
 }
 
 .name-university{
@@ -32,14 +31,14 @@ html{
     align-items: center;
 }
 
-.name-university h1{
-    
+.name-university h1{    
     margin-bottom:10px;
     font-size: 60px;
     color:white;
     text-shadow:3px 3px rgb(0, 0, 0) ;
     transition: all 0.3s ease 0s;
 }
+
 .name-university h3 {  
     font-size: 40px;
     color:rgb(255, 255, 255);
@@ -53,33 +52,32 @@ html{
 }
 
 .btn {
+    margin-top: 350px;
     position:absolute;
-    top:600px;
-    margin-right:650px;
+    margin-right:50px;
     background: none;
     border: 2px solid black;
-    padding: 8px 48px;
-    font-size: 28px;
+    padding: 8px 38px;
+    font-size: 22px;
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 1px 1px 3px #7a7a7a;
     transition: all 0.3s ease 0s;
     text-decoration: none;
-    color:white;
+    color:rgb(0, 0, 0);
     text-shadow:0.5px 0.5px #7a7a7a;
-    transform: skew(0deg, -8deg);
+    font-weight:bolder;
 }
 
 .projects{
-    border-color:#ffffff;  
+    border-color:transparent;  
 }
 
 .projects:hover {
-    background-color:#ffffff;
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
-    text-shadow:1px 1px #000000;
-    box-shadow: 0px 15px 20px rgba(245, 219, 243, 0.267);
+    background-color:#000000; 
+    color: rgb(255, 255, 255);
+    text-shadow:0.5px 0.5px #ffffff;
+    box-shadow: 0px 15px 20px rgba(248, 243, 248, 0.267);
     transform: translateY(-15px); 
 }
 
@@ -409,8 +407,8 @@ html{
        }
 
     .btn {     
-        top:500px;
-        left:390px;
+        margin-top:350px;
+        margin-left:50px;
         position: absolute;
     }
 
@@ -426,8 +424,9 @@ html{
     }
 
     .btn {
-        top:310px;
-        left:250px;
+        margin-top:400px;
+        margin-left:50px;
+        color:white;
     }
 
     .name-university{
@@ -470,8 +469,9 @@ html{
 @media (max-width:450px){
 
     .btn {
-        top:300px;
-        
+        margin-top:300px;
+        margin-left:50px;   
+        color:white;
     }
     .name-university{
         top:0px;
